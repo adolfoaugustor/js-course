@@ -1,12 +1,11 @@
-class Pessoa {
-    constructor(nome){
-        this.nome = nome
-    }
+function Pessoa(nome) {
+    this.nome = nome
 
-    falar(){
+    this.falar = function(){
         console.log(`Meu nome é ${this.nome}`)
     }
 }
 
 const p1 = new Pessoa('Adolfo')
 p1.falar()
+console.log(p1.nome)
