@@ -17,4 +17,6 @@ objeto.processamento()
     abstração trazer coisas reais para a programação
     uma simplificação.
 
+    herança reuso de codigo.
+    polimorfismo multiplas formas
 */
